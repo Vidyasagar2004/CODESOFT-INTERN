@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: white;
+
+}
+#header{
+    width:100%;
+    height: 100vh;
+    margin: 0;
+    
+    background-image:url(images/image1.jpg);
+    background-size: cover 35% ;
+    background-position: center 50% ;
+    image-rendering:pixelated optimizeQuality optimizeSpeed -moz-crisp-edges ;
+    filter:contrast(1.2) brightness(1.1) saturate(0.8) ; 
+    -webkit-filter:opacity(100%) hue-rotate(40%) inherit;
+     
+     
+
+
+}
+.logo{
+    width: 130px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 20px;
+    
+
+}
+ul, li{
+    padding: 25px;
+    display: inline;
+    float: right;
+    
+    
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background: lightseagreen;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+
+
+nav ul li a:hover::after{
+    width: 100%;
+
+}
+p{
+    padding-bottom: 8px;
+}
+.header-text{
+    font-size:large;
+    margin-top: 20px;
+    padding: 50px;
+}
+.header-text h1 span{
+    color: lightseagreen;
+
+}
+
+/* about me */
+/*         about */
+/* #about{
+    padding: 80px 0;
+    color: whitesmoke;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+    
+
+}
+.sub{
+    font-size: 60px;
+    font-weight: 500;
+    color: whitesmoke;
+}
+.tables-titles{
+    display: block;
+} */
+
+
+.about{
+    box-sizing: border-box;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+    line-height: 1.5rem;
+    
+}
+.head{
+    color: lightseagreen;
+    padding: 20px;
+}
+p{
+    padding: 10px;
+    font-size: 16px;
+}
+h2{
+    padding: 10px;
+}
+.skills{
+    display: flex;
+    /* max-width: 800px;
+    max-height: 400px;
+    width: 100%;  */
+  
+
+}
+.skills div{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: gainsboro;
+    color: black;
+    
+
+}
+
+    
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 10px;
+    max-width: 800px;
+    max-height: 400px;
+    width: 100%; 
+
+
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 10px;
+    max-width: 800px;
+    max-height: 400px;
+    width: 100%; 
+    
+    
+    
+
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 10px;
+    max-width: 800px;
+    max-height: 400px;
+    width: 100%; 
+    
+}
+h4{
+    padding: 15px;
+}
+h5{
+    padding: 10px;
+}
+.service{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+.img1{
+    height: 100px;
+    width: 100px;
+
+}
+.img2{
+    height: 100px;
+    width: 100px;
+}
+
+.form{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+    color: #080808;
+    
+    
+
+}
+.application{
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#name{
+    padding: 5px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    background-color: white;
+    
+}
+#Email{
+    padding: 5px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    background-color: white;
+   
+}
+#number{
+    padding: 5px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    background-color: white;
+   
+}
+#message{
+    padding: 5px;
+    text-align: center;
+    background: transparent;
+    border: 0;
+    background-color: white;
+   
+}
+.btn{
+    height: 30px;
+    width: 60px;
+    border: 0;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    
+}
+.footer{
+    text-align: center;
+    justify-content: center;
+}
